@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mBlue" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B3DFF"/>
+      <stop offset="0.5" stop-color="#1A59D9"/>
+      <stop offset="1" stop-color="#082A7A"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="151" y1="112" x2="361" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5F7FA"/>
+      <stop offset="0.25" stop-color="#DCE3EC"/>
+      <stop offset="0.55" stop-color="#B7C0CD"/>
+      <stop offset="1" stop-color="#7A8599"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0B1735" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="36" fill="#F3F6FB"/>
+
+  <g filter="url(#shadow)">
+    <path d="M96 366V146H162L256 282L350 146H416V366H349V239L287 327H225L163 239V366H96Z" fill="url(#mBlue)"/>
+    <path d="M140 366V182H188L256 270L324 182H372V366H319V244L268 318H244L193 244V366H140Z" fill="url(#silver)" opacity="0.9"/>
+  </g>
+</svg>
